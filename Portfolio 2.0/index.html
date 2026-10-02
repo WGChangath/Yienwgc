@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Yien WG Changath</a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Service</a>
+                <a href="experience.html" class="nav-link">Experience</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-sun"></i><i class="fas fa-moon"></i></button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+        </div>
+    </nav>
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content reveal fade-left">
+                <div class="hero-img-container">
+                    <img src="yien.jpg" alt="Yien WG Changath" class="hero-img">
+                </div>
+                <h1 class="hero-title">Yien WG Changath</h1>
+                <h2 class="hero-subtitle">ICT Graduate | Web Development, Databases & IT Systems</h2>
+                <p class="hero-tagline">Bridging technology and business to solve real-world problems</p>
+                <p class="hero-intro">ICT graduate passionate about building reliable, user-focused digital solutions that create genuine value through web development, databases, and IT systems.</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary"><i class="fas fa-code"></i> View Services</a>
+                    <a href="#" class="btn btn-secondary" download><i class="fas fa-download"></i> Download CV</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/yien-changath-970722376?" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/WGChangath" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Yien WG Changath. All rights reserved.</p>
+            <div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Service</a><a href="experience.html">Experience</a><a href="contact.html">Contact</a></div>
+        </div>
+    </footer>
+    <button class="back-to-top" id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
